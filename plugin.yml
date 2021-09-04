@@ -1,0 +1,10 @@
+name: SkinLoader
+main: skh6075\skinloader\SKinLoader
+author: AvasKr
+version: 1.0.0
+api: 4.0.0
+website: https://github.com/GodVas
+
+permissions:
+  skin.loader.permission:
+    default: op
