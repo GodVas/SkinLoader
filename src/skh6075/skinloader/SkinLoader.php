@@ -39,7 +39,7 @@ final class SkinLoader extends PluginBase{
 
 	protected function onDisable() : void{
 		foreach($this->skinData as $name => $skin){
-			file_put_contents($this->getDataFolder() . "SKins/" . $name . ".yml", yaml_emit($this->parseCreateSkinData($name, $skin), YAML_UTF8_ENCODING));
+			file_put_contents($this->getDataFolder() . "Skins/" . $name . ".yml", yaml_emit($this->parseCreateSkinData($name, $skin), YAML_UTF8_ENCODING));
 		}
 	}
 }
